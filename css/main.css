@@ -1,0 +1,19 @@
+span.dropt:hover {text-decoration: none;  z-index: 6; }
+span.dropt span {position: absolute; left: -9999px;
+  border-style:solid; border-color:black; border-width:1px; z-index: 6;}
+span.dropt:hover span {left: 35%; } 
+span.dropt span {position: absolute; left: -9999px;
+  margin: 20px 0 0 0; padding: 0px 0 0px 0; 
+  border-style:solid; border-color:black; border-width:1px;}
+.rTable { display: table; } .rTableRow { display: table-row; }
+ .rTableHeading { display: table-header-group; }
+ .rTableBody { display: table-row-group; }
+ .rTableFoot { display: table-footer-group; }
+ .rTableCell, .rTableHead { display: table-cell; }
+
+#clip {
+  position: absolute;
+  clip: rect(157px, 327px, 436px, 175px);
+  /* clip: shape(top, right, bottom, left); NB 'rect' is the only available option */
+}
+
