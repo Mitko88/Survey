@@ -66,21 +66,26 @@ Do the following if you're using your customized build of modernizr (http://www.
 <![endif]-->
 <script src="respond.min.js"></script>
 </head>
-<body>
+<body style="height:100%">
 <div class="gridContainer clearefuge floorix">
-  <div id="LayoutDiv2"><b>Evacuation scenario - ordinary case</b></div>
+  <div id="LayoutDiv2" style="height:100%"><b>Evacuation scenario - ordinary case</b></div>
   	<div class="text3"><span><b>Announcement</b>: You are advised to evacuate from the building using either stairs or evacuation elevators from a refuge floor.</span></div>
 	<div class="text3"><span><b>Note</b>: A <b>refuge floor</b> prevents smoke spreading to the lower and upper parts of the building.</span></div>
     <div id="Paragraph"><div class="text1"><b>1. Would you consider going downstairs to the closest refuge floor in order to use evacuation elevators and go directly to the ground floor?</b></div>
-    <div class="well" style="float: left;">
-				<table class="grid" cellspacing="10" style="float: left; width:80%">
+    <div class="well" style="float: left; height:100%">
+				<table class="grid" cellspacing="10" style="float: left; width:100%">
 				 <tr>
-				   <td class="griditem1"><b>Case</b></td>
+				   <td class="griditem2b"><b>Case</b></td>
 				   <td class="griditem2"><b>No, Staying on stairs</b></td>
-				   <td class="griditem3b"><b>Yes, floor 15</b></td>
-				   <td class="griditem3b"><b>Yes, floor 35</b></td>
-				   <td class="griditem3b"><b>Yes, floor 55</b></td>
-				   <td class="griditem2b"><b>Yes, going regardless of floor height</b></td>				   
+				   <td class="griditem2"><b>Yes, floor 15</b></td>
+				   <td class="griditem2"><b>Yes, floor 35</b></td>
+				   <td class="griditem2"><b>Yes, floor 55</b></td>
+				   <td class="griditem2b"><b>Yes, going regardless of floor height</b></td>		
+				   <td rowspan=7 class="griditema">
+						<div class="image-container">
+							<img class="picture-bottom" src="pict/3D building.png"; />
+						</div>
+					</td>		
 				 </tr>
 				 <tr>
 				   <td class="griditema" ><span style="vertical-align: middle;"><b>A</b>. you are going <b>alone</b></span></td>
@@ -131,7 +136,6 @@ Do the following if you're using your customized build of modernizr (http://www.
 				   <td class="cent"><input class="main6" id="30" onChange="changeCheckBoxes17()" type=checkbox  name="griditem6" value="30" style="vertical-align: top;"></td>
 				 </tr>
 				</table>
-				<table style="float: right; width:20%"><tr><img class="picture12" src="pict/3D building.png"; /><tr></table>
 			</div>
             <div class="text1"><b>2. Would you go to the refuge floor and wait for evacaution elevators, if you face following types of crowd on the stair?</b> Note: Choosing case in which a stair is more crowded (e.g. case C), means that you will go to the refuge floor even if the stair is less crowded (case A and B). </div>
 			<div >

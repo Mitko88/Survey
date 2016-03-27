@@ -74,7 +74,7 @@ img, object, embed, video {
 .griditema {
 	vertical-align:middle;
 	text-align: left;
-	width: 40%;
+	width: 30%;
 	font-size: 9px;
 	}
 .griditem1 {
@@ -84,7 +84,7 @@ img, object, embed, video {
 	}
 .griditem2 {
 	text-align: center;
-	width: 10%;
+	width: 7%;
 	font-size: 9px;
 	}
 .griditem2a {
@@ -262,7 +262,7 @@ img, object, embed, video {
 	}
 .griditema {
 	text-align: left;
-	width: 40%;
+	width: 30%;
 	font-size: 11px;
 	padding-top: 0.5%;
 	}
@@ -273,7 +273,7 @@ img, object, embed, video {
 	}
 .griditem2 {
 	text-align: center;
-	width: 10%;
+	width: 7%;
 	font-size: 11px;
 	}
 .griditem2b {
@@ -448,7 +448,7 @@ img, object, embed, video {
 	}
 .griditema {
 	text-align: left;
-	width: 40%;
+	width: 30%;
 	font-size: 13px;
 	padding-top: 2.5%;
 	}
@@ -591,4 +591,18 @@ img, object, embed, video {
   width:54%;
   height:190px;
 }
+}
+
+.image-container{
+	display: inline-block;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.picture-bottom{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	max-height:100%
 }
