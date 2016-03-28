@@ -7,7 +7,6 @@
 					$('#2').prop('checked', false); // Unchecks it
 					$('#3').prop('checked', false);
 					$('#4').prop('checked', false);
-					$('#5').prop('checked', false);
 				}
 			}
 		function changeCheckBoxes1(){
@@ -15,9 +14,10 @@
 				$.each($("input[class=main1]:checked"), function() {
 					t1.push($(this).val());
 				});
-				if (t1.indexOf("2")>=0 || t1.indexOf("3")>=0 || t1.indexOf("4")>=0){
+				if (t1.indexOf("2")>=0){
 					$('#1').prop('checked', false); // Unchecks it
-					$('#5').prop('checked', false); // Unchecks it
+					$('#3').prop('checked', true); // Unchecks it
+					$('#4').prop('checked', true); // Unchecks it
 				}
 			}
 		function changeCheckBoxes2(){
@@ -25,19 +25,45 @@
 				$.each($("input[class=main1]:checked"), function() {
 					t1.push($(this).val());
 				});
-				var t = t1.indexOf("5");
-				if (t1.indexOf("5")>=0){
+				if (t1.indexOf("3")>=0){
 					$('#1').prop('checked', false); // Unchecks it
-					$('#2').prop('checked', true); // Unchecks it
-					$('#3').prop('checked', true);
+					$('#2').prop('checked', false); // Unchecks it
 					$('#4').prop('checked', true);
 				}else{
 					$('#1').prop('checked', false); // Unchecks it
 					$('#2').prop('checked', false); // Unchecks it
-					$('#3').prop('checked', false);
-					$('#4').prop('checked', false);
 				}
 			}
+		function changeCheckBoxes69(){
+				$('#1').prop('checked', false); // Unchecks it
+				$('#2').prop('checked', false); // Unchecks it
+				$('#3').prop('checked', false);
+		}
+		function changeCheckBoxes70(){
+				$('#6').prop('checked', false); // Unchecks it
+				$('#7').prop('checked', false); // Unchecks it
+				$('#8').prop('checked', false);
+		}
+		function changeCheckBoxes71(){
+				$('#11').prop('checked', false); // Unchecks it
+				$('#12').prop('checked', false); // Unchecks it
+				$('#13').prop('checked', false);
+		}
+		function changeCheckBoxes72(){
+				$('#16').prop('checked', false); // Unchecks it
+				$('#17').prop('checked', false); // Unchecks it
+				$('#18').prop('checked', false);
+		}
+		function changeCheckBoxes73(){
+				$('#21').prop('checked', false); // Unchecks it
+				$('#22').prop('checked', false); // Unchecks it
+				$('#23').prop('checked', false);
+		}
+		function changeCheckBoxes74(){
+				$('#26').prop('checked', false); // Unchecks it
+				$('#27').prop('checked', false); // Unchecks it
+				$('#28').prop('checked', false);
+		}
 		function changeCheckBoxes3(){
 				var t1=[];
 				$.each($("input[class=main2]:checked"), function() {
@@ -47,7 +73,6 @@
 					$('#7').prop('checked', false); // Unchecks it
 					$('#8').prop('checked', false);
 					$('#9').prop('checked', false);
-					$('#10').prop('checked', false);
 				}
 			}
 		function changeCheckBoxes4(){
@@ -55,9 +80,10 @@
 				$.each($("input[class=main2]:checked"), function() {
 					t1.push($(this).val());
 				});
-				if (t1.indexOf("7")>=0 || t1.indexOf("8")>=0 || t1.indexOf("9")>=0){
+				if (t1.indexOf("7")>=0){
 					$('#6').prop('checked', false); // Unchecks it
-					$('#10').prop('checked', false); // Unchecks it
+					$('#8').prop('checked', true);
+					$('#9').prop('checked', true);
 				}
 			}
 		function changeCheckBoxes5(){
@@ -65,20 +91,16 @@
 				$.each($("input[class=main2]:checked"), function() {
 					t1.push($(this).val());
 				});
-				var t = t1.indexOf("10");
-				if (t1.indexOf("10")>=0){
+				if (t1.indexOf("8")>=0){
 					$('#6').prop('checked', false); // Unchecks it
-					$('#7').prop('checked', true); // Unchecks it
-					$('#8').prop('checked', true);
+					$('#7').prop('checked', false); // Unchecks it
 					$('#9').prop('checked', true);
 				}else{
 					$('#6').prop('checked', false); // Unchecks it
 					$('#7').prop('checked', false); // Unchecks it
-					$('#8').prop('checked', false);
-					$('#9').prop('checked', false);
 				}
 			}
-			function changeCheckBoxes6(){
+		function changeCheckBoxes6(){
 				var t1=[];
 				$.each($("input[class=main3]:checked"), function() {
 					t1.push($(this).val());
@@ -87,7 +109,6 @@
 					$('#12').prop('checked', false); // Unchecks it
 					$('#13').prop('checked', false);
 					$('#14').prop('checked', false);
-					$('#15').prop('checked', false);
 				}
 			}
 		function changeCheckBoxes7(){
@@ -95,9 +116,10 @@
 				$.each($("input[class=main3]:checked"), function() {
 					t1.push($(this).val());
 				});
-				if (t1.indexOf("12")>=0 || t1.indexOf("13")>=0 || t1.indexOf("14")>=0){
+				if (t1.indexOf("12")>=0){
 					$('#11').prop('checked', false); // Unchecks it
-					$('#15').prop('checked', false); // Unchecks it
+					$('#13').prop('checked', true);
+					$('#14').prop('checked', true);
 				}
 			}
 		function changeCheckBoxes8(){
@@ -105,17 +127,13 @@
 				$.each($("input[class=main3]:checked"), function() {
 					t1.push($(this).val());
 				});
-				var t = t1.indexOf("15");
-				if (t1.indexOf("15")>=0){
+				if (t1.indexOf("13")>=0){
 					$('#11').prop('checked', false); // Unchecks it
-					$('#12').prop('checked', true); // Unchecks it
-					$('#13').prop('checked', true);
+					$('#12').prop('checked', false); // Unchecks it
 					$('#14').prop('checked', true);
 				}else{
 					$('#11').prop('checked', false); // Unchecks it
 					$('#12').prop('checked', false); // Unchecks it
-					$('#13').prop('checked', false);
-					$('#14').prop('checked', false);
 				}
 			}
 		function changeCheckBoxes9(){
@@ -127,7 +145,6 @@
 					$('#17').prop('checked', false); // Unchecks it
 					$('#18').prop('checked', false);
 					$('#19').prop('checked', false);
-					$('#20').prop('checked', false);
 				}
 			}
 		function changeCheckBoxes10(){
@@ -135,9 +152,10 @@
 				$.each($("input[class=main4]:checked"), function() {
 					t1.push($(this).val());
 				});
-				if (t1.indexOf("17")>=0 || t1.indexOf("18")>=0 || t1.indexOf("19")>=0){
+				if (t1.indexOf("17")>=0){
 					$('#16').prop('checked', false); // Unchecks it
-					$('#20').prop('checked', false); // Unchecks it
+					$('#18').prop('checked', true);
+					$('#19').prop('checked', true);
 				}
 			}
 		function changeCheckBoxes11(){
@@ -145,17 +163,13 @@
 				$.each($("input[class=main4]:checked"), function() {
 					t1.push($(this).val());
 				});
-				var t = t1.indexOf("20");
-				if (t1.indexOf("20")>=0){
+				if (t1.indexOf("18")>=0){
 					$('#16').prop('checked', false); // Unchecks it
-					$('#17').prop('checked', true); // Unchecks it
-					$('#18').prop('checked', true);
+					$('#17').prop('checked', false); // Unchecks it
 					$('#19').prop('checked', true);
 				}else{
 					$('#16').prop('checked', false); // Unchecks it
 					$('#17').prop('checked', false); // Unchecks it
-					$('#18').prop('checked', false);
-					$('#19').prop('checked', false);
 				}
 			}
 				function changeCheckBoxes12(){
@@ -167,7 +181,6 @@
 					$('#22').prop('checked', false); // Unchecks it
 					$('#23').prop('checked', false);
 					$('#24').prop('checked', false);
-					$('#25').prop('checked', false);
 				}
 			}
 		function changeCheckBoxes13(){
@@ -175,9 +188,10 @@
 				$.each($("input[class=main5]:checked"), function() {
 					t1.push($(this).val());
 				});
-				if (t1.indexOf("22")>=0 || t1.indexOf("23")>=0 || t1.indexOf("24")>=0){
+				if (t1.indexOf("22")>=0){
 					$('#21').prop('checked', false); // Unchecks it
-					$('#25').prop('checked', false); // Unchecks it
+					$('#23').prop('checked', true);
+					$('#24').prop('checked', true);
 				}
 			}
 		function changeCheckBoxes14(){
@@ -185,16 +199,13 @@
 				$.each($("input[class=main5]:checked"), function() {
 					t1.push($(this).val());
 				});
-				if (t1.indexOf("25")>=0){
+				if (t1.indexOf("23")>=0){
 					$('#21').prop('checked', false); // Unchecks it
-					$('#22').prop('checked', true); // Unchecks it
-					$('#23').prop('checked', true);
+					$('#22').prop('checked', false); // Unchecks it
 					$('#24').prop('checked', true);
 				}else{
 					$('#21').prop('checked', false); // Unchecks it
 					$('#22').prop('checked', false); // Unchecks it
-					$('#23').prop('checked', false);
-					$('#24').prop('checked', false);
 				}
 			}
 				function changeCheckBoxes15(){
@@ -206,7 +217,6 @@
 					$('#27').prop('checked', false); // Unchecks it
 					$('#28').prop('checked', false);
 					$('#29').prop('checked', false);
-					$('#30').prop('checked', false);
 				}
 			}
 		function changeCheckBoxes16(){
@@ -214,9 +224,10 @@
 				$.each($("input[class=main6]:checked"), function() {
 					t1.push($(this).val());
 				});
-				if (t1.indexOf("27")>=0 || t1.indexOf("28")>=0 || t1.indexOf("29")>=0){
+				if (t1.indexOf("27")>=0){
 					$('#26').prop('checked', false); // Unchecks it
-					$('#30').prop('checked', false); // Unchecks it
+					$('#28').prop('checked', true);
+					$('#29').prop('checked', true);
 				}
 			}
 		function changeCheckBoxes17(){
@@ -224,17 +235,14 @@
 				$.each($("input[class=main6]:checked"), function() {
 					t1.push($(this).val());
 				});
-				var t = t1.indexOf("30");
-				if (t1.indexOf("30")>=0){
+				if (t1.indexOf("28")>=0){
 					$('#26').prop('checked', false); // Unchecks it
-					$('#27').prop('checked', true); // Unchecks it
-					$('#28').prop('checked', true);
+					$('#27').prop('checked', false); // Unchecks it
 					$('#29').prop('checked', true);
 				}else{
 					$('#26').prop('checked', false); // Unchecks it
 					$('#27').prop('checked', false); // Unchecks it
-					$('#28').prop('checked', false);
-					$('#29').prop('checked', false);
+
 				}
 			}
 		function changeCheckBoxes18(){
@@ -246,7 +254,6 @@
 					$('#32').prop('checked', false); // Unchecks it
 					$('#33').prop('checked', false);
 					$('#34').prop('checked', false);
-					$('#35').prop('checked', false);
 				}
 		}
 		function changeCheckBoxes19(){
@@ -256,12 +263,8 @@
 				});
 				if (t1.indexOf("32") >= 0){
 					$('#31').prop('checked', false); // Unchecks it
-					$('#33').prop('checked', false);
-					$('#34').prop('checked', false);
-					$('#35').prop('checked', false);
-				}else{
-					$('#33').prop('checked', false);
-					$('#34').prop('checked', false);
+					$('#33').prop('checked', true);
+					$('#34').prop('checked', true);
 				}
 		}
 		function changeCheckBoxes20(){
@@ -271,25 +274,16 @@
 				});
 				if (t1.indexOf("33") >= 0){
 					$('#31').prop('checked', false); // Unchecks it
-					$('#32').prop('checked', true);
-					$('#34').prop('checked', false);
-					$('#35').prop('checked', false);
+					$('#32').prop('checked', false);
+					$('#34').prop('checked', true);
 				}else{
-					$('#34').prop('checked', false);
+					$('#32').prop('checked', false);
 				}
 		}
 		function changeCheckBoxes21(){
-				var t1=[];
-				$.each($("input[class=main7]:checked"), function() {
-					t1.push($(this).val());
-				});
-				if (t1.indexOf("34") >= 0){
-					$('#31').prop('checked', false); // Unchecks it
-					$('#32').prop('checked', true);
-					$('#33').prop('checked', true);
-					$('#35').prop('checked', false);
-				}
-				
+			$('#31').prop('checked', false); // Unchecks it
+			$('#32').prop('checked', false);
+			$('#33').prop('checked', false);
 		}
 		function changeCheckBoxes22(){
 				var t1=[];
@@ -317,7 +311,6 @@
 					$('#37').prop('checked', false); // Unchecks it
 					$('#38').prop('checked', false);
 					$('#39').prop('checked', false);
-					$('#40').prop('checked', false);
 				}
 		}
 		function changeCheckBoxes24(){
@@ -327,12 +320,8 @@
 				});
 				if (t1.indexOf("37") >= 0){
 					$('#36').prop('checked', false); // Unchecks it
-					$('#38').prop('checked', false);
-					$('#39').prop('checked', false);
-					$('#40').prop('checked', false);
-				}else{
-					$('#38').prop('checked', false);
-					$('#39').prop('checked', false);
+					$('#38').prop('checked', true);
+					$('#39').prop('checked', true);
 				}
 		}
 		function changeCheckBoxes25(){
@@ -340,44 +329,19 @@
 				$.each($("input[class=main8]:checked"), function() {
 					t1.push($(this).val());
 				});
-				if (t1.indexOf("36") >= 0){
-					$('#37').prop('checked', false); // Unchecks it
-					$('#38').prop('checked', true);
-					$('#39').prop('checked', false);
-					$('#40').prop('checked', false);
+				if (t1.indexOf("38") >= 0){
+					$('#36').prop('checked', false); // Unchecks it
+					$('#37').prop('checked', false);
+					$('#39').prop('checked', true);
 				}else{
-					$('#39').prop('checked', false);
+					$('#37').prop('checked', false);
 				}
 		}
 		function changeCheckBoxes26(){
-				var t1=[];
-				$.each($("input[class=main8]:checked"), function() {
-					t1.push($(this).val());
-				});
-				if (t1.indexOf("39") >= 0){
-					$('#36').prop('checked', false); // Unchecks it
-					$('#37').prop('checked', true);
-					$('#38').prop('checked', true);
-					$('#40').prop('checked', false);
-				}
-				
-		}
-		function changeCheckBoxes27(){
-				var t1=[];
-				$.each($("input[class=main8]:checked"), function() {
-					t1.push($(this).val());
-				});
-				if (t1.indexOf("40") >= 0){
-					$('#36').prop('checked', false); // Unchecks it
-					$('#37').prop('checked', true);
-					$('#38').prop('checked', true);
-					$('#39').prop('checked', true);
-				}else{
-					$('#36').prop('checked', false); // Unchecks it
-					$('#37').prop('checked', false);
-					$('#38').prop('checked', false);
-					$('#39').prop('checked', false);
-				}
+			$('#36').prop('checked', false); // Unchecks it
+			$('#37').prop('checked', false);
+			$('#38').prop('checked', false);
+
 		}
 		function changeCheckBoxes28(){
 				var t1=[];
@@ -388,7 +352,6 @@
 					$('#42').prop('checked', false); // Unchecks it
 					$('#43').prop('checked', false);
 					$('#44').prop('checked', false);
-					$('#45').prop('checked', false);
 				}
 		}
 		function changeCheckBoxes29(){
@@ -398,12 +361,8 @@
 				});
 				if (t1.indexOf("42") >= 0){
 					$('#41').prop('checked', false); // Unchecks it
-					$('#43').prop('checked', false);
-					$('#44').prop('checked', false);
-					$('#45').prop('checked', false);
-				}else{
-					$('#43').prop('checked', false);
-					$('#44').prop('checked', false);
+					$('#43').prop('checked', true);
+					$('#44').prop('checked', true);
 				}
 		}
 		function changeCheckBoxes30(){
@@ -413,42 +372,16 @@
 				});
 				if (t1.indexOf("43") >= 0){
 					$('#41').prop('checked', false); // Unchecks it
-					$('#42').prop('checked', true);
-					$('#44').prop('checked', false);
-					$('#45').prop('checked', false);
+					$('#42').prop('checked', false);
+					$('#44').prop('checked', true);
 				}else{
-					$('#44').prop('checked', false);
+					$('#42').prop('checked', false);
 				}
 		}
 		function changeCheckBoxes31(){
-				var t1=[];
-				$.each($("input[class=main9]:checked"), function() {
-					t1.push($(this).val());
-				});
-				if (t1.indexOf("44") >= 0){
-					$('#41').prop('checked', false); // Unchecks it
-					$('#42').prop('checked', true);
-					$('#43').prop('checked', true);
-					$('#45').prop('checked', false);
-				}
-				
-		}
-		function changeCheckBoxes32(){
-				var t1=[];
-				$.each($("input[class=main9]:checked"), function() {
-					t1.push($(this).val());
-				});
-				if (t1.indexOf("45") >= 0){
-					$('#41').prop('checked', false); // Unchecks it
-					$('#42').prop('checked', true);
-					$('#43').prop('checked', true);
-					$('#44').prop('checked', true);
-				}else{
-					$('#41').prop('checked', false); // Unchecks it
-					$('#42').prop('checked', false);
-					$('#43').prop('checked', false);
-					$('#44').prop('checked', false);
-				}
+			$('#41').prop('checked', false); // Unchecks it
+			$('#42').prop('checked', false);
+			$('#43').prop('checked', false);
 		}
 		function changeCheckBoxes33(){
 				var t1=[];
