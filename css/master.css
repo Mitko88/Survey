@@ -99,7 +99,7 @@ img, object, embed, video {
 	}
 .griditem3 {
 	text-align: center;
-	width: 11%;
+	width: 16%;
 	font-size: 9px;
 	}
 .griditem3a {
@@ -138,14 +138,14 @@ img, object, embed, video {
 	margin: 0px 0px 0px 0.5%;
 }
 .picture4 {
-	width:14%;
+	width:15%;
 	height:100px;
-	margin: 0px 0px 0px 42%;
+	margin: 0px 0px 0px 44%;
 	}
 .picture5 {
 	width:14%;
 	height:100px;
-	margin: 0px 0px 0px 0.2%;
+	margin: 0px 0px 0px 0.3%;
 }
 .picture7{
 	 width:100%;	
@@ -231,7 +231,7 @@ img, object, embed, video {
 	bottom: 0;
 	right: 0;
 	width: 100%;
-	max-height:100%
+	max-height:99%
 }
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
