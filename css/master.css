@@ -632,15 +632,14 @@ img, object, embed, video {
   width:40%;
   height:190px;
 }
-
+}
 
 .image-container{
 	text-align: right; 
 	vertical-align: bottom;
 }
 .picture-bottom{
+	position: relative;
 	right: 0;
 	width: 100%;
-	width: 80%;
-	height:100%
 }
