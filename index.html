@@ -68,74 +68,93 @@ Do the following if you're using your customized build of modernizr (http://www.
 </head>
 <body style="height:100%">
 <div class="gridContainer clearefuge floorix">
+  <div id="LayoutDiv2" style="height:100%"><b>General questions</b></div><br><br>
+	<div class="well">
+				<table class="grid" cellspacing="10">
+				 <tr>
+				   <td class="size"><span style="vertical-align: top;"><b>Gender</b></span></td>
+				   <td class="cent2"><input class="main" type=radio  name="griditem4" value="101" style="vertical-align: top;">&nbsp<span class="size">Male</span></td>
+				   <td class="cent2"><input class="main" type=radio  name="griditem4" value="102" style="vertical-align: top;">&nbsp<span class="size">Female</span></td>
+				 </tr>
+				 <tr>
+				   <td class="size"><span style="vertical-align: top;"><b>Phisical health</b></span></td>
+				   <td class="cent2"><input class="main0" type=radio  name="griditem5" value="103" style="vertical-align: top;">&nbsp<span class="size">Fit</span></td>
+				   <td class="cent2"><input class="main0" type=radio  name="griditem5" value="104" style="vertical-align: top;">&nbsp<span class="size">Normal</span></td>
+				   <td class="cent2"><input class="main0" type=radio name="griditem5" value="105" style="vertical-align: top;">&nbsp<span class="size">Unfit</span></td>
+				 </tr>
+				 <tr>
+				   <td class="size"><span style="vertical-align: top;"><b>Age</b> (years)</span></td>
+				   <td class="cent2"><input class="main00" type=radio  name="griditem6" value="107" style="vertical-align: top;">&nbsp<span class="size">>20</span></td>
+				   <td class="cent2"><input class="main00" type=radio  name="griditem6" value="108" style="vertical-align: top;">&nbsp<span class="size">20-40</span></td>
+				   <td class="cent2"><input class="main00" type=radio  name="griditem6" value="109" style="vertical-align: top;">&nbsp<span class="size">40-60</span></td>
+				   <td class="cent2"><input class="main00" type=radio  name="griditem6" value="110" style="vertical-align: top;">&nbsp<span class="size">60+</span></td>
+				 </tr>
+				</table>
+
+			</div><br>
+  
   <div id="LayoutDiv2" style="height:100%"><b>Evacuation scenario - ordinary case</b></div>
   	<div class="text3"><span><b>Announcement</b>: You are advised to evacuate from the building using either stairs or evacuation elevators from a refuge floor.</span></div>
 	<div class="text3"><span><b>Note</b>: A <b>refuge floor</b> prevents smoke spreading to the lower and upper parts of the building.</span></div>
     <div id="Paragraph"><div class="text1"><b>1. Would you consider going downstairs to the closest refuge floor in order to use evacuation elevators and go directly to the ground floor?</b></div>
     <div class="well" style="float: left; height:100%; width:100%">
-				<table class="grid" cellspacing="10" style="float: left; width:100%">
-				 <tr>
-				   <td class="griditem2b"><b>Case</b></td>
-				   <td class="griditem2"><b>No, Staying on stairs</b></td>
-				   <td class="griditem2"><b>Yes, floor 15</b></td>
-				   <td class="griditem2"><b>Yes, floor 35</b></td>
-				   <td class="griditem2"><b>Yes, floor 55</b></td>
-				   <td class="griditem2b"><b>Yes, going regardless of floor height</b></td>		
-				   <td rowspan=7 class="griditema image-container">
-							<img class="picture-bottom" src="pict/3D building.png" />
+			<table class="grid" cellspacing="10" style="float: left; width:100%">
+				<tr>
+					<td class="griditem2"><b>Case</b></td>
+					<td class="griditem2"><b>No, Staying on stairs</b></td>
+					<td class="griditem2"><b>Yes, floor 15</b></td>
+					<td class="griditem2"><b>Yes, floor 35</b></td>
+					<td class="griditem2"><b>Yes, floor 55</b></td>
+					<td class="griditem2b"><b>Yes, going regardless of floor height</b></td>		
+					<td rowspan=7 class="griditema image-container">
+						<img class="picture-bottom" src="pict/3D building.png" />
 					</td>		
 				 </tr>
 				 <tr>
 				   <td class="griditema" ><span style="vertical-align: middle;"><b>A</b>. you are going <b>alone</b></span></td>
 				   <td class="cent"><input class="main1" id="1" onChange="changeCheckBoxes()" type=checkbox  name="griditem1" value="1" style="vertical-align: top;"></td>
 				   <td class="cent"><input class="main1" id="2" onChange="changeCheckBoxes1()" type=checkbox  name="griditem1" value="2" style="vertical-align: top;"></td>
-				   <td class="cent"><input class="main1" id="3" onChange="changeCheckBoxes1()" type=checkbox  name="griditem1" value="3" style="vertical-align: top;"></td>
-				   <td class="cent"><input class="main1" id="4" onChange="changeCheckBoxes1()" type=checkbox  name="griditem1" value="4" style="vertical-align: top;"></td>
-				   <td class="cent"><input class="main1" id="5" onChange="changeCheckBoxes2()" type=checkbox  name="griditem1" value="5" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main1" id="3" onChange="changeCheckBoxes2()" type=checkbox  name="griditem1" value="3" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main1" id="4" onChange="changeCheckBoxes69()" type=checkbox  name="griditem1" value="4" style="vertical-align: top;"></td>
 				 </tr>
 				 <tr>
 				   <td class="griditema"><span style="vertical-align: middle;"><b>B</b>. you are with your <b>family</b></span></td>
 				   <td class="cent"><input class="main2" id="6" onChange="changeCheckBoxes3()" type=checkbox  name="griditem2" value="6" style="vertical-align: top;"></td>
 				   <td class="cent"><input class="main2" id="7" onChange="changeCheckBoxes4()" type=checkbox  name="griditem2" value="7" style="vertical-align: top;"></td>
-				   <td class="cent"><input class="main2" id="8" onChange="changeCheckBoxes4()" type=checkbox  name="griditem2" value="8" style="vertical-align: top;"></td>
-				   <td class="cent"><input class="main2" id="9" onChange="changeCheckBoxes4()" type=checkbox  name="griditem2" value="9" style="vertical-align: top;"></td>
-				   <td class="cent"><input class="main2" id="10" onChange="changeCheckBoxes5()" type=checkbox  name="griditem2" value="10" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main2" id="8" onChange="changeCheckBoxes5()" type=checkbox  name="griditem2" value="8" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main2" id="9" onChange="changeCheckBoxes70()" type=checkbox  name="griditem2" value="9" style="vertical-align: top;"></td>
 				 </tr>
 				 <tr>
 				   <td class="griditema"><span style="vertical-align: middle;"><b>C</b>. you are with people that you <b>know</b>, and they are deciding to go to the refuge floor</span></td>
 				   <td class="cent"><input class="main3" id="11" onChange="changeCheckBoxes6()" type=checkbox  name="griditem3" value="11" style="vertical-align: top;"></td>
 				   <td class="cent"><input class="main3" id="12" onChange="changeCheckBoxes7()" type=checkbox  name="griditem3" value="12" style="vertical-align: top;"></td>
-				   <td class="cent"><input class="main3" id="13" onChange="changeCheckBoxes7()" type=checkbox  name="griditem3" value="13" style="vertical-align: top;"></td>
-				   <td class="cent"><input class="main3" id="14" onChange="changeCheckBoxes7()" type=checkbox  name="griditem3" value="14" style="vertical-align: top;"></td>
-				   <td class="cent"><input class="main3" id="15" onChange="changeCheckBoxes8()" type=checkbox  name="griditem3" value="15" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main3" id="13" onChange="changeCheckBoxes8()" type=checkbox  name="griditem3" value="13" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main3" id="14" onChange="changeCheckBoxes71()" type=checkbox  name="griditem3" value="14" style="vertical-align: top;"></td>
 				 </tr>
 				 <tr>
 				   <td class="griditema" ><span style="vertical-align: middle;"><b>D</b>. you are with people that you <b>do not know</b> and they are deciding to go the refuge floor</span></td>
 				   <td class="cent"><input class="main4" id="16" onChange="changeCheckBoxes9()" type=checkbox  name="griditem4" value="16" style="vertical-align: top;"></td>
 				   <td class="cent"><input class="main4" id="17" onChange="changeCheckBoxes10()" type=checkbox  name="griditem4" value="17" style="vertical-align: top;"></td>
-				   <td class="cent"><input class="main4" id="18" onChange="changeCheckBoxes10()" type=checkbox  name="griditem4" value="18" style="vertical-align: top;"></td>
-				   <td class="cent"><input class="main4" id="19" onChange="changeCheckBoxes10()" type=checkbox  name="griditem4" value="19" style="vertical-align: top;"></td>
-				   <td class="cent"><input class="main4" id="20" onChange="changeCheckBoxes11()" type=checkbox  name="griditem4" value="20" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main4" id="18" onChange="changeCheckBoxes11()" type=checkbox  name="griditem4" value="18" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main4" id="19" onChange="changeCheckBoxes72()" type=checkbox  name="griditem4" value="19" style="vertical-align: top;"></td>
 				 </tr>
 				 <tr>
-				   <td class="griditema" ><span style="vertical-align: middle;"><b><b>E</b>. a responsible person</b> is telling you to use evacuation elevators from the refuge floor</span></td>
+				   <td class="griditema" ><span style="vertical-align: middle;"><b><b>E</b>. a responsible person</b> is telling you to go to the refuge floor</span></td>
 				   <td class="cent"><input class="main5" id="21" onChange="changeCheckBoxes12()" type=checkbox  name="griditem5" value="21" style="vertical-align: top; "></td>
 				   <td class="cent"><input class="main5" id="22" onChange="changeCheckBoxes13()" type=checkbox  name="griditem5" value="22" style="vertical-align: top;"></td>
-				   <td class="cent"><input class="main5" id="23" onChange="changeCheckBoxes13()" type=checkbox  name="griditem5" value="23" style="vertical-align: top;"></td>
-				   <td class="cent"><input class="main5" id="24" onChange="changeCheckBoxes13()" type=checkbox  name="griditem5" value="24" style="vertical-align: top;"></td>
-				   <td class="cent"><input class="main5" id="25" onChange="changeCheckBoxes14()" type=checkbox  name="griditem5" value="25" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main5" id="23" onChange="changeCheckBoxes14()" type=checkbox  name="griditem5" value="23" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main5" id="24" onChange="changeCheckBoxes73()" type=checkbox  name="griditem5" value="24" style="vertical-align: top;"></td>
 				 </tr>
 				 <tr>
-				   <td class="griditema" ><span style="vertical-align: middle;"><b><b>F</b>. a dynamic sign</b> shows to use evacuation elevators from the refuge floor</span></td>
+				   <td class="griditema" ><span style="vertical-align: middle;"><b><b>F</b>. a dynamic sign</b> shows to go to the refuge floor</span></td>
 				   <td class="cent"><input class="main6" id="26" onChange="changeCheckBoxes15()" type=checkbox  name="griditem6" value="26" style="vertical-align: top;"></td>
 				   <td class="cent"><input class="main6" id="27" onChange="changeCheckBoxes16()" type=checkbox  name="griditem6" value="27" style="vertical-align: top;"></td>
-				   <td class="cent"><input class="main6" id="28" onChange="changeCheckBoxes16()" type=checkbox  name="griditem6" value="28" style="vertical-align: top;"></td>
-				   <td class="cent"><input class="main6" id="29" onChange="changeCheckBoxes16()" type=checkbox  name="griditem6" value="29" style="vertical-align: top;;"></td>
-				   <td class="cent"><input class="main6" id="30" onChange="changeCheckBoxes17()" type=checkbox  name="griditem6" value="30" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main6" id="28" onChange="changeCheckBoxes17()" type=checkbox  name="griditem6" value="28" style="vertical-align: top;"></td>
+				   <td class="cent"><input class="main6" id="29" onChange="changeCheckBoxes74()" type=checkbox  name="griditem6" value="29" style="vertical-align: top;;"></td>
 				 </tr>
 				</table>
 			</div>
-            <div class="text1"><b>2. Would you go to the refuge floor and wait for evacaution elevators, if you face following types of crowd on the stair?</b> Note: Choosing case in which a stair is more crowded (e.g. case C), means that you will go to the refuge floor even if the stair is less crowded (case A and B). </div>
+            <div class="text1"><b>2. Would you go to the refuge floor and wait for evacaution elevators, if you face following types of crowd on the stair?</b> Note: Choosing case in which a stair is less crowded (e.g. case A), means that you will go to the refuge floor even if the stair is more crowded (case B and C). </div>
 			<div >
 <img class="picture1" src="pict/movie_speed_0.51.gif"><img class="picture2" id="clip1" src="pict/movie_speed_0.36.gif"><img class="picture2" id="clip1" src="pict/movie_speed_0.21.gif">
 				</div>
@@ -143,11 +162,10 @@ Do the following if you're using your customized build of modernizr (http://www.
 				<table class="grid" cellspacing="10">
 				 <tr>
 				   <td class="griditem4"><b>Position of the refuge floor</b></td>
-				       <td class="griditem2"><b>Staying on stairs regardless of crowd</b></td>
-					   <td class="griditem3a"><b>Stairs - Case A<br>Going to the refuge floor</b>								
-					   <td class="griditem3a"><b>Stairs - Case B<br>Going to the refuge floor</b>								
-					   <td class="griditem3a"><b>Stairs - Case C<br>Going to the refuge floor</b>
-				   <td class="griditem2"><b>Going to the refuge floor regardless of crowd</b></td>
+				       <td class="griditem2"><b>No, staying on stairs regardless of crowd</b></td>
+					   <td class="griditem3a"><b>Stairs - Case A<br>Yes, going to the refuge floor</b>								
+					   <td class="griditem3a"><b>Stairs - Case B<br>Yes, going to the refuge floor</b>								
+					   <td class="griditem3a"><b>Stairs - Case C<br>Yes, going to the refuge floor</b>
 				 </tr>
 				 <tr>
 				   <td class="griditem4"><span style="vertical-align: top;">Floor 15</span></td>
@@ -155,7 +173,6 @@ Do the following if you're using your customized build of modernizr (http://www.
 				   <td class="cent1"><input class="main7" id="32" onChange="changeCheckBoxes19()" type=checkbox  name="griditem4" value="32" style="vertical-align: top;"></td>
 				   <td class="cent1"><input class="main7" id="33" onChange="changeCheckBoxes20()" type=checkbox  name="griditem4" value="33" style="vertical-align: top;"></td>
 				   <td class="cent1"><input class="main7" id="34" onChange="changeCheckBoxes21()" type=checkbox  name="griditem4" value="34" style="vertical-align: top;"></td>
-				   <td class="cent1"><input class="main7" id="35" onChange="changeCheckBoxes22()" type=checkbox  name="griditem4" value="35" style="vertical-align: top;"></td>
 				 </tr>
 				 <tr>
 				   <td class="griditem4"><span style="vertical-align: top;">Floor 35</span></td>
@@ -163,7 +180,6 @@ Do the following if you're using your customized build of modernizr (http://www.
 				   <td class="cent1"><input class="main8" id="37" onChange="changeCheckBoxes24()" type=checkbox  name="griditem5" value="37" style="vertical-align: top;"></td>
 				   <td class="cent1"><input class="main8" id="38" onChange="changeCheckBoxes25()" type=checkbox  name="griditem5" value="38" style="vertical-align: top;"></td>
 				   <td class="cent1"><input class="main8" id="39" onChange="changeCheckBoxes26()" type=checkbox  name="griditem5" value="39" style="vertical-align: top;"></td>
-				   <td class="cent1"><input class="main8" id="40" onChange="changeCheckBoxes27()" type=checkbox  name="griditem5" value="40" style="vertical-align: top;"></td>
 				 </tr>
 				 <tr>
 				   <td class="griditem4"><span style="vertical-align: top;">Floor 55</span></td>
@@ -171,21 +187,20 @@ Do the following if you're using your customized build of modernizr (http://www.
 				   <td class="cent1"><input class="main9" id="42" onChange="changeCheckBoxes29()" type=checkbox  name="griditem6" value="42" style="vertical-align: top;"></td>
 				   <td class="cent1"><input class="main9" id="43" onChange="changeCheckBoxes30()" type=checkbox  name="griditem6" value="43" style="vertical-align: top;"></td>
 				   <td class="cent1"><input class="main9" id="44" onChange="changeCheckBoxes31()" type=checkbox  name="griditem6" value="44" style="vertical-align: top;"></td>
-				   <td class="cent1"><input class="main9" id="45" onChange="changeCheckBoxes32()" type=checkbox  name="griditem6" value="45" style="vertical-align: top;"></td>
 				 </tr>
 				</table>
 
 			</div>
-            <div class="text1"><b>3. In case you came on the refuge floor, you face crowd in front of elevators, and you know that the stair is also crowded. Would you go to the stair again? For example, you face Elevator Case 3 (250 people wait for elevators), and you know that on the stair there are people like on Stairs Case C. Would you go to the stair again?</b> Note: Choosing case in which a stair is more crowded (e.g. case C), means that you will go to the stair even if the stair is less crowded (case A and B).</div>		
+            <div class="text1"><b>3. In case you came on the refuge floor, you face crowd in front of elevators, and you know that the stair is also crowded. Would you go to the stair again?</b> Note: Choosing case in which a stair is more crowded (e.g. case C), means that you will go to the stair even if the stair is less crowded (case A and B).</div>		
 			<div >
 <img class="picture4" src="pict/movie_speed_0.51.gif"><img class="picture5" id="clip1" src="pict/movie_speed_0.36.gif"><img class="picture5" id="clip1" src="pict/movie_speed_0.21.gif">
 				</div>
-				<div style="float: left; width: 26%;">
+				<div style="float: left; width: 30%;">
 					<img class="picture7" src="pict/0.75-elevator.png";/>
 					<img class="picture8" src="pict/1.5-elevator.png";/>
 					<img class="picture9" src="pict/2.5-elevator.png";/>
 				</div>
-				<div style="float: right; width: 74%;">
+				<div style="float: right; width: 70%;">
 				<div class="well">
 				<table>
 					<table class="grid">
@@ -295,52 +310,54 @@ Do the following if you're using your customized build of modernizr (http://www.
 			</div></div>
 			<div class="text1"><b>4. In case you came on the refuge floor, how much time would you need to observe the scene and decide whether you stay on the refuge floor or go towards stairs again?</b></div>
 			<div class="well"><br>
-					<b class="text">Floor 15: Elevators time:&nbsp&nbsp&nbsp&nbsp&nbsp</b><input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="10" data-slider-step="0.5" data-slider-value="0"/><b class="text">&nbsp&nbsp[min]</b><br><br><br>
-					<b class="text">Floor 35: Elevators time:&nbsp&nbsp&nbsp&nbsp</b> <input id="ex2" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="10" data-slider-step="0.5" data-slider-value="0"/><b class="text">&nbsp&nbsp[min]</b><br><br><br>
-					<b class="text">Floor 55: Elevators time:&nbsp&nbsp&nbsp&nbsp&nbsp</b><input id="ex3" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="10" data-slider-step="0.5" data-slider-value="0"/><b class="text">&nbsp&nbsp[min]</b>
+					<b class="text">Floor 15: Elevators time:&nbsp&nbsp&nbsp&nbsp&nbsp</b><input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="5" data-slider-step="0.5" data-slider-value="0"/><b class="text">&nbsp[min]</b><br><br><br>
+					<b class="text">Floor 35: Elevators time:&nbsp&nbsp&nbsp&nbsp</b> <input id="ex2" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="5" data-slider-step="0.5" data-slider-value="0"/><b class="text">&nbsp[min]</b><br><br><br>
+					<b class="text">Floor 55: Elevators time:&nbsp&nbsp&nbsp&nbsp&nbsp</b><input id="ex3" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="5" data-slider-step="0.5" data-slider-value="0"/><b class="text">&nbsp[min]</b>
 			</div>			
 			<div class="text1"><b>5. In case you want to stay after the observation, what would be the maximum time that you are willing to wait for elevators?</b></div>
 			<div class="well"><br>
-					<b class="text">Floor 15: Elevators time:&nbsp&nbsp&nbsp&nbsp</b> <input id="ex4" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp&nbsp[min]</b><br><br><br>
-					<b class="text">Floor 35: Elevators time:&nbsp&nbsp&nbsp&nbsp</b> <input id="ex5" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp&nbsp[min]</b><br><br><br>
-					<b class="text">Floor 55: Elevators time:&nbsp&nbsp&nbsp&nbsp&nbsp</b><input id="ex6" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp&nbsp[min]</b>
+					<b class="text">Floor 15: Elevators time:&nbsp&nbsp&nbsp&nbsp</b> <input id="ex4" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp[min]</b><br><br><br>
+					<b class="text">Floor 35: Elevators time:&nbsp&nbsp&nbsp&nbsp</b> <input id="ex5" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp[min]</b><br><br><br>
+					<b class="text">Floor 55: Elevators time:&nbsp&nbsp&nbsp&nbsp&nbsp</b><input id="ex6" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp[min]</b>
 			</div><br>
 			<div id="LayoutDiv2"><b>Evacuation scenario - evacuation time presented</b></div>
 
-			<div class="text1"><b>1. What should be the maximum evacuation time of elevators with which you would be fine to choose them for evacuation, if evacuation time of a stair is presented. Stairs - case A</b></div>
-      		<div class="well" style="float: left; width: 60%; height:204px; margin:0px 0px">
+			<div class="text1"><b>1. What should be the maximum evacuation time of elevators with which you would be fine to choose them for evacuation, if evacuation time of a stair is presented.</b> Note: If you leave value 0, it means that you <b>do not want</b> to use elevators.<b>  Stairs - case A</b></div>
+      		<div class="well" style="float: left; width: 65%; height:204px; margin:0px 0px">
 			<br>
-  				<b class="text">Floor 15<b><br><b class="text"> Elevators time:&nbsp&nbsp</b> <input id="ex7" style="width:40%;" data-slider-id='ex1Slider1' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp&nbsp[min]</b><br><br>
-				<b class="text">Floor 35<b><br><b class="text"> Elevators time:&nbsp&nbsp</b> <input id="ex8" style="width:40%;" data-slider-id='ex1Slider1' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp&nbsp[min]</b><br><br>
-				<b class="text">Floor 55<b><br><b class="text"> Elevators time:&nbsp&nbsp</b> <input id="ex9" style="width:40%;" data-slider-id='ex1Slider1' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp&nbsp[min]</b><br>
+  				<b class="text">Floor 15<b><br><b class="text"> Elevators time:&nbsp&nbsp</b> <input id="ex7" style="width:40%;" data-slider-id='ex1Slider1' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp[min]</b><br><br>
+				<b class="text">Floor 35<b><br><b class="text"> Elevators time:&nbsp&nbsp</b> <input id="ex8" style="width:40%;" data-slider-id='ex1Slider1' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp[min]</b><br><br>
+				<b class="text">Floor 55<b><br><b class="text"> Elevators time:&nbsp&nbsp</b> <input id="ex9" style="width:40%;" data-slider-id='ex1Slider1' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp[min]</b><br>
       		</div>
-			<div class="well" style="float: right; width: 40%; height:204px; margin:0px 0px">
+			<div class="well" style="float: right; width: 35%; height:204px; margin:0px 0px">
 				<img id="clip3" src="pict/caseA.png"><img class="picture11" src="pict/movie_speed_0.51.gif">
 			</div>
-			<div class="text1"><b>2. What should be the maximum evacuation time of elevators with which you would be fine to choose them for evacuation, if evacuation time of a stair is presented. Stairs - case B</b></div>
-      		<div class="well" style="float: left; width: 60%; height:204px; margin:0px 0px">
+			<div class="text1">	2. What should be the maximum evacuation time of elevators with which you would be fine to choose them for evacuation, if evacuation time of a stair is presented.</b> Note: If you leave value 0, it means that you <b>do not want</b> to use elevators.<b>  Stairs - case B</b></div>
+      		<div class="well" style="float: left; width: 65%; height:204px; margin:0px 0px">
 				<br class="text2">
-  				<b class="text">Floor 15<b><br><b class="text">Elevators time:&nbsp&nbsp</b> <input id="ex10" style="width:40%;" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="30" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp&nbsp[min]</b><br class="text2"><br>
-				<b class="text">Floor 35<b><br><b class="text">Elevators time:&nbsp&nbsp</b> <input id="ex11" style="width:40%;" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="30" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp&nbsp[min]</b><br class="text2"><br>
-				<b class="text">Floor 55<b><br><b class="text">Elevators time:&nbsp&nbsp</b> <input id="ex12" style="width:40%;" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="30" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp&nbsp[min]</b><br>
+  				<b class="text">Floor 15<b><br><b class="text">Elevators time:&nbsp&nbsp</b> <input id="ex10" style="width:40%;" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="30" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp[min]</b><br class="text2"><br>
+				<b class="text">Floor 35<b><br><b class="text">Elevators time:&nbsp&nbsp</b> <input id="ex11" style="width:40%;" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="30" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp[min]</b><br class="text2"><br>
+				<b class="text">Floor 55<b><br><b class="text">Elevators time:&nbsp&nbsp</b> <input id="ex12" style="width:40%;" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="30" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp[min]</b><br>
       		</div>
-			<div class="well" style="float: right; width: 40%; margin:0px 0px">
+			<div class="well" style="float: right; width: 35%; margin:0px 0px">
 				<img id="clip3" src="pict/caseB.png"><img class="picture11" src="pict/movie_speed_0.36.gif">
 			</div>
 			
-			<div class="text1"><b>3. What should be the maximum evacuation time of elevators with which you would be fine to choose them for evacuation, if evacuation time of a stair is presented. Stairs - case C</b></div>
-      		<div class="well" style="float: left; width: 60%; height:204px; margin:0px 0px">
+			<div class="text1"><b>3. What should be the maximum evacuation time of elevators with which you would be fine to choose them for evacuation, if evacuation time of a stair is presented.</b> Note: If you leave value 0, it means that you <b>do not want</b> to use elevators.<b>  Stairs - case C</b></div>
+      		<div class="well" style="float: left; width: 65%; height:204px; margin:0px 0px">
 				<br class="text2">
-  				<b class="text">Floor 15<b><br><b class="text">Elevators time:&nbsp&nbsp</b> <input id="ex13" style="width:40%;" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="40" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp&nbsp[min]</b><br class="text2"><br>
-				<b class="text">Floor 35<b><br><b class="text">Elevators time:&nbsp&nbsp</b> <input id="ex14" style="width:40%;" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="40" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp&nbsp[min]</b><br class="text2"><br>
-				<b class="text">Floor 55<b><br><b class="text">Elevators time:&nbsp&nbsp</b> <input id="ex15" style="width:40%;" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="40" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp&nbsp[min]</b><br>
+  				<b class="text">Floor 15<b><br><b class="text">Elevators time:&nbsp&nbsp</b> <input id="ex13" style="width:40%;" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="40" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp[min]</b><br class="text2"><br>
+				<b class="text">Floor 35<b><br><b class="text">Elevators time:&nbsp&nbsp</b> <input id="ex14" style="width:40%;" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="40" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp[min]</b><br class="text2"><br>
+				<b class="text">Floor 55<b><br><b class="text">Elevators time:&nbsp&nbsp</b> <input id="ex15" style="width:40%;" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="40" data-slider-step="1" data-slider-value="0"/><b class="text">&nbsp[min]</b><br>
       		</div>
-			<div class="well" style="float: right; width: 40%; margin:0px 0px">
+			<div class="well" style="float: right; width: 35%; margin:0px 0px">
 				<img id="clip3" src="pict/caseC.png"><img class="picture11" src="pict/movie_speed_0.21.gif">
 			</div>
+			<button type="button" style="float: right; margin:1% 0%" onClick="getValues()">Submit</button>
   </div>
+  
 </div>
-<br><button type="button" style="float: right; margin:0px 12%" onClick="getValues()">Submit</button>
+
 <script type='text/javascript' src="js/jquery.min.js"></script>
     <script type='text/javascript' src="js/bootstrap-slider.js"></script>
     <script type='text/javascript'>
